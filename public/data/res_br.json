@@ -154,7 +154,7 @@
         "images/portfolio/jtdev-2018/jtdev-2018-full.webm",
         "images/portfolio/jtdev-2018/jtdev-2018-mobile.webm"
       ],
-      "url": "https://jtdev.herokuapp.com/",
+      "url": "https://jtdev-2018.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
