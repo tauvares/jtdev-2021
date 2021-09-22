@@ -1,0 +1,483 @@
+{
+  "basic_info": {
+    "navbarItems": [
+      {
+        "title": "SERVICES",
+        "section": "#services"
+      },
+      {
+        "title": "PROJETS",
+        "section": "#portfolio"
+      },
+      {
+        "title": "SKILLS",
+        "section": "#skills"
+      },
+      {
+        "title": "EXPÉRIENCE",
+        "section": "#experience"
+      },
+      {
+        "title": "ÉDUCATION",
+        "section": "#education"
+      },
+      {
+        "title": "À PROPOS",
+        "section": "#about"
+      }
+    ],
+    "titles": [
+      "Architecte de Logiciels",
+      "Développeur Full-Stack",
+      "Ingénieur de Données Senior",
+      "Développeur d'Applications Mobiles"
+    ],
+    "download": {
+      "title": "Télécharger CV",
+      "cv_file": "Tavares_Joao_CV_fr.pdf"
+    }, 
+    "description_header": "Allo",
+    "description": "👋 Je suis João Tavares. Je travaille avec les derniers frameworks front-end comme Angular, React et Flutter. Ce site a été entièrement développé par moi. Si vous avez aimé le look de la page, et avez besoin de réaliser un projet avec les technologies que j'utilise, contactez-moi! Merci 💜",
+    "section_name": {
+      "services": "Services",
+      "projects": "Projets",
+      "skills": "Skills",
+      "experience": "Expérience",
+      "education": "Éducation",
+      "about": "À propos"
+    }
+  }, 
+  "services": [
+    {
+      "title": "Création de pages statiques",
+      "icon": "ci:window-code-block",
+      "keywords": "HTML? Javascript? CSS?",
+      "description": "Pour vous qui avez besoin d'insérer votre affaire sur l'internet en utilisant un website de présentation de vos produits, histoire et contacts"
+    },
+    {
+      "title": "Développement de Sites Responsives",
+      "icon": "clarity:devices-solid",
+      "keywords": "React? Angular? Material Design? Bootstrap?",
+      "description": "Laissez votre website être accedé par divers types de dispositifs, sans changer ni l'esthétique ni la facilité d'utilisation"
+    },
+    {
+      "title": "Développement Back-end",
+      "icon": "codicon:database",
+      "keywords": "Java? .Net? Node? SQL Server? Oracle? MongoDB?",
+      "description": "Est-ce que vous avez besoin d'utiliser une base de donnés? Un Blog? Un website qui vous laisse faire des mises à jour périodiquement? Je peux vous arranger aussi ce type de solution!"
+    },
+    {
+      "title": "Développement en Mode Agile",
+      "icon": "pixelarticons:kanban",
+      "keywords": "Scrum? KanBan? Jira? Confluence?",
+      "description": "Travail en équipe qui privilegie la communication avec le client et les livraisons fréquentes"
+    },
+    {
+      "title": "Intégration DevOps (CI/CD)",
+      "icon": "ant-design:cloud-sync-outlined",
+      "keywords": "Jenkins? AWS? Azure? Heroku? Git? TFS? Docker? Nuvem?",
+      "description": "Configuration de l'infrastructure permettant la création et l'évolution de logiciels en suivant les bonnes pratiques de développement"
+    },
+    {
+      "title": "Développement Orienté à Tests/Comportement (TDD/BDD)",
+      "icon": "file-icons:test-generic",
+      "keywords": "Jest? JUnit? JaCoCo? Sonarqube? Cucumber",
+      "description": "Créez d'abord les essais auxquels le système doit passer. Ensuite mettez le logiciel à la preuve. L'application a bien passé par tous les tests automatisés? Alors votre système a une bonne fiabilité!"
+    }
+  ],
+  "projects": [
+    {
+      "title": "GAZELLES",
+      "startDate": "Mai 2021",
+      "description": "Application mobile destinée à l'accompagnement de la création de places en services de garde au Québec",
+      "client": "Client: Ministère de la Famille du Québec - MFA",
+      "category": "Catégorie: Gouvernemental",
+      "detail": "Responsble pour accompagner la situation des places disponibles aux services de garde du Québec en niveau macro, avec des dashboards, ou par recherche d'un service de garde spécífique",
+      "images": [
+        "images/portfolio/gazelles/gazelles-thumbnail.png",
+        "images/portfolio/gazelles/gazelles.png",
+        "images/portfolio/gazelles/gazelles.webm"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-flutter-plain",
+          "name": "Flutter"
+        },
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS Amplify"
+        },
+        {
+          "class": "devicon-oracle-original",
+          "name": "Oracle"
+        }
+      ]
+    },
+    {
+      "title": "PENSIONIFY",
+      "startDate": "Avril 2020",
+      "description": "Système de demandes d'inscription en régimes de pension",
+      "client": "Client: Levio - Canada",
+      "category": "Catégorie: Funds de pension",
+      "detail": "Utilisant techniques de BPM (Business Process Management), Ce système est capable d'orienter le flux d'inscription en un régime de pension dès la demande initiale par le client jusqu'à la reception des bonus de leurs membres participants",
+      "images": [
+        "images/portfolio/pensionify/pensionify-thumbnail.png",
+        "images/portfolio/pensionify/pensionify.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Material Design"
+        },
+        {
+          "class": "devicon-dotnetcore-plain",
+          "name": ".NET"
+        }
+      ]
+    },
+    {
+      "title": "JTDEV - v1.0",
+      "startDate": "Mars 2018",
+      "description": "Première version du site jtdev.com.br.",
+      "client": "Client: - ",
+      "category": "Catégorie: Portfolio web",
+      "detail": "Website destiné à donner visibilité au travail réalisé par João Tavares (MOI :))",
+      "images": [
+        "images/portfolio/jtdev-2018/jtdev-2018-thumbnail.png",
+        "images/portfolio/jtdev-2018/jtdev-2018-mobile.png",
+        "images/portfolio/jtdev-2018/jtdev-2018-full.webm",
+        "images/portfolio/jtdev-2018/jtdev-2018-mobile.webm"
+      ],
+      "url": "https://jtdev.herokuapp.com/",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-heroku-original",
+          "name": "Heroku"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "PARCEIRO",
+      "startDate": "Mars 2018",
+      "description": "Système utilisé par les institutions partenaires du MPDFT, développé en utilisant PHP/Laravel et AngularJS",
+      "client": "Client: MPDFT/Institutions Partenaires",
+      "category": "Catégorie: Gouvernemental",
+      "detail": "Système chargé pour standardiser la manière d'acompagnier l'éxécution de les mesures alternatives à l'emprisonnement, et fournir un mécanisme pour permettre aux institutions de offrir des enseignements à la société.",
+      "images": [
+        "images/portfolio/parceiro/parceiro-thumbnail.png",
+        "images/portfolio/parceiro/parceiro.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-microsoftsqlserver-plain",
+          "name": "MS SQL Server"
+        }
+      ]
+    },
+    {
+      "title": "ACCESS EDUCA",
+      "startDate": "Décembre 2017",
+      "description": "Map interactif avec inscription et visualisation de Thérapeutes",
+      "client": "Client: Access Educa - Coaching",
+      "category": "Catégorie: Coaching/Éducation",
+      "detail": "Dans une équipe remote, le système a été développé en utilisant la pile MEAN et déployé dans un serveur heroku via integration avec github",
+      "images": [
+        "images/portfolio/acessoaeducacao/acessoaeducacao-thumbnail.png",
+        "images/portfolio/acessoaeducacao/acessoaeducacao.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-heroku-original",
+          "name": "Heroku"
+        }
+      ]
+    },
+    {
+      "title": "INVITATIONS APP",
+      "startDate": "Janvier 2018",
+      "description": "Création d'événnements, génération automatique d'invitations aux participants de l'événnement enregistré et contrôle d'accès invité",
+      "client": "Client: MPDFT et publique en général",
+      "category": "Catégorie: Invitations/Événements",
+      "detail": "Développé en utilisant la pile MEAN, la génération de code à barres et l'envoi d'e-mails aux invités avec RSVP.",
+      "images": [
+        "images/portfolio/invitationsapp/invitationsapp-thumbnail.png",
+        "images/portfolio/invitationsapp/invitationsapp.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "title": "CONFUSION RESTAURANT",
+      "startDate": "Juillet 2017",
+      "description": "Website de présentation de restaurant",
+      "client": "Client: - ",
+      "category": "Catégorie: Travaille de spécialisation",
+      "detail": "Développé en utilisant la pile MEAN pendant la spécialisation en Full Stack Web Development par Coursera/Université de Hong Kong, ce sert à modèle de développement de sites comerciaux.",
+      "images": [
+        "images/portfolio/confusion/confusion-thumbnail.png",
+        "images/portfolio/confusion/confusion.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-ionic-original",
+          "name": "Ionic"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "SYSTÈME DE MESURES ALTERNATIVES À L'EMPRISONNEMENT - SMA",
+      "startDate": "Janvier 2009",
+      "description": "Système développé en utilisant Delphi et SQL Server",
+      "client": "Client: MPDFT",
+      "category": "Catégorie: Gouvernemental",
+      "detail": "Système client-serveur, développé pour le Départment de Mésures Alternatives à l'Emprisonnement du MPDFT et chargé pour controler les personnes envoyées aux institutions et mesurer le travaille fait par tous les secteurs situés dans le region du District Fédéral.",
+      "images": [
+        "images/portfolio/sma/sma-thumbnail.png",
+        "images/portfolio/sma/sma.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Borland Delphi"
+        },
+        {
+          "class": "devicon-microsoftsqlserver-plain",
+          "name": "MS SQL Server"
+        }
+      ]
+    },
+    {
+      "title": "SUPPORT TECHNIQUE",
+      "startDate": "Janvier 2002",
+      "description": "Installation d'infrastructure",
+      "client": "Client: Plusieurs",
+      "category": "Catégorie: Installation/Configuration",
+      "detail": "Disponibilité et création d'environnements de développement locales ou en nouage",
+      "images": [
+        "images/portfolio/techsupport/tech-support-graphic-thumbnail.png",
+        "images/portfolio/techsupport/tech-support-graphic.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        },
+        {
+          "class": "devicon-windows8-original",
+          "name": "Windows"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "LEVIO - Canada",
+      "title": "DÉVELOPPEUR FULLSTACK - ARCHITECTE LOGICIEL",
+      "years": "10.2018 - présent",
+      "mainTech": [
+        "FullStack - Agile - Architecture"
+      ],
+      "description": "Un grand défi s'est présenté dans ma carrière. Nouveau travail, nouveau pays, nouvelle langue, nouvelles technologies. Une excellente expérience d'apprentissage dans de nombreux aspects, à la fois professionnels et personnels. Avec beaucoup d'adaptabilité et de travail acharné, la qualité du service rendu est maintenant à un nouveau niveau!",
+      "icon": "devicon-react-plain",
+      "technologies": [
+        "REST API",
+        "GraphQL",
+        "Java",
+        "C#",
+        "AWS",
+        "Azure",
+        "Angular Material",
+        "React",
+        "Material Design",
+        "Jenkins",
+        "Jest",
+        "ESLint",
+        "JaCoCo",
+        "Istambul",
+        "SonarQube",
+        "DynamoDB",
+        "JBoss",
+        "Springboot",
+        "Tomcat",
+        "Maven",
+        "Flutter",
+        "AWS AppSync",
+        "JIRA",
+        "Kanban"
+      ]
+    },
+    {
+      "company": "jtdev.com.br",
+      "title": "DÉVELOPPEMENT WEB INDÉPENDANT",
+      "years": "07.2016 - 10-2018",
+      "mainTech": [
+        "MEAN (MongoDB, ExpressJS, Angular, NodeJS)"
+      ],
+      "description": "Après terminer une spécialisation en Full Stack Developer, par l'Université de Hong Kong / Coursera, j'ai effectué un travail indépendant, en utilisant toujours la pile MEAN (MongoDB, Express, AngularJS, NodeJS), et en profitant de dernières technologies dans le développement front-end et back-end. D'ailleurs, j'ai toujours utilisé les meilleures pratiques de programmation, telles que le Mobile First Responsive Design, et les techniques du développement agile.",
+      "icon": "devicon-mongodb-plain",
+      "technologies": [
+        "REST API",
+        "Angular",
+        "NodeJs",
+        "ExpressJS",
+        "MongoDB",
+        "Heroku",
+        "Bootstrap"
+      ]
+    },
+    {
+      "company": "MPDFT - Brasília",
+      "title": "CHEF DU SECTEUR DE CONSOLIDATION DE DONNÉES",
+      "years": "01.2009 - 10.2018",
+      "mainTech": [
+        "Delphi, PHP, MS SQL Server"
+      ],
+      "description": "L'un des départements stratégiques du MPDFT, chargé de surveiller les auteurs d'infractions ayant le plus faible potentiel offensif, avait un besoin urgent d'un système capable de contrôler le respect des mesures appliquées par les juges, telles que: le paiemnt des frais pour les organizations partenaires du MPDFT ou la prestation de services communautaires. Après le déploiement et l'évolution continue du système, le contrôle par le département s'est non seulement amélioré, comme les valeurs envoyées aux institutions partenaires a augmenté à un rythme annuel de 12%, aidant ces institutions à mieux remplir leur rôle dans la société.",
+      "icon": "devicon-angularjs-plain",
+      "technologies": [
+        "Delphi",
+        "PHP",
+        "Laravel",
+        "Angular",
+        "Bootstrap",
+        "MS SQL Server",
+        "Joomla",
+        "Linux",
+        "NginX",
+        "ASP"
+      ]
+    },
+    {
+      "company": "MPDFT - Brasília",
+      "title": "DÉVELOPPEUR DE LOGICIELS",
+      "years": "01.2003 - 12.2008",
+      "mainTech": [
+        "Delphi, ASP, Java, Struts, MS SQL Server"
+      ],
+      "description": "Encore au MPDFT, admis à l'équipe de développement de systèmes, un vaste univers de systèmes et langages de programmation a été appris, dès Delphi à systèmes Java, ainsi que la création de sites ASP. Dans ce milieu, j'étais chargé pour entretenir jusqu'à 30 systèmes simultanément.",
+      "icon": "devicon-microsoftsqlserver-plain",
+      "technologies": [
+        "Delphi",
+        "ASP",
+        "Java",
+        "JUnit",
+        "Struts",
+        "MS SQL Server",
+        "IIS",
+        "Tomcat"
+      ]
+    },
+    {
+      "company": "MPDFT - Brasília",
+      "title": "SUPPORT TECHNIQUE",
+      "years": "10.1999 - 12.2002",
+      "mainTech": [
+        "Helpdesk, Entretien de hardware"
+      ],
+      "description": "Classé 4ème sur 1200 candidats au poste de technicien informatique au MPU, l'institution gouvernemental, J'étais très excité! Support Technique était mon nom! Pour n'importe pas quel type de dispositif! Le Formatation HD, création d'images HD, installation d'antivirus, la réparation d'imprimantes, création et la restauration de backups... Il n'y avait pas de mauvais temps! Tout pourrait être résolu dans le monde de TI!",
+      "icon": "devicon-windows8-original",
+      "technologies": [
+        "Support technique",
+        "Installation d'imprimantes",
+        "Installation de réseau",
+        "Formatage de PC",
+        "Entretien de Hardware",
+        "VNC",
+        "Antivirus",
+        "Windows"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "company": "DefOpenSource",
+      "title": "Front-End Developer",
+      "years": "10.2019 - present",
+      "mainTech": [
+        "Angular 8/9/10"
+      ],
+      "technologies": [
+        "REST API",
+        "RxJS",
+        "JavaScript",
+        "Bootstrap",
+        "MDBootstrap",
+        "EF Core",
+        ".NET Core",
+        "SignalR",
+        "Angular Material"
+      ]
+    },
+    {
+      "company": "Serros Solutions",
+      "title": "Intern",
+      "years": "01.2018 - 09.2019",
+      "mainTech": [
+        "Angular 7/8"
+      ],
+      "technologies": [
+        "RxJS",
+        "Django",
+        "PHP",
+        "JavaScript",
+        "DHTMLX Gantt"
+      ]
+    }
+  ]
+}

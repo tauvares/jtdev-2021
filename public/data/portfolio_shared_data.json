@@ -1,0 +1,277 @@
+{
+  "basic_info": {
+    "name": "João Tavares - jtdev.com.br",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/tauvares",
+        "class": "akar-icons:github-outline-fill"
+      },
+      {
+        "name": "gmail",
+        "url": "mailto://tauvares@gmail.com",
+        "class": "cib:gmail"
+      }
+    ],
+    "image": "me.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "90"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-original",
+        "level": "70"
+      },  
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "Flutter",
+        "class": "devicon-flutter-plain",
+        "level": "70"
+      },
+      {
+        "name": "Semantic UI",
+        "class": "devicon-storybook-plain",
+        "level": "70"
+      },
+      {
+        "name": "Material UI",
+        "class": "devicon-materialui-plain",
+        "level": "70"
+      },      
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "65"
+      },
+      {
+        "name": "Github",
+        "class": "devicon-github-original",
+        "level": "65"
+      },
+      {
+        "name": "Gitlab",
+        "class": "devicon-gitlab-plain",
+        "level": "65"
+      },
+      {
+        "name": "Bitbucket",
+        "class": "devicon-bitbucket-original",
+        "level": "65"
+      },
+      {
+        "name": "JIRA",
+        "class": "devicon-jira-plain",
+        "level": "65"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "65"
+      },
+      {
+        "name": "GraphQL",
+        "class": "devicon-graphql-plain",
+        "level": "65"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "65"
+      },
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "65"
+      },
+      {
+        "name": "C",
+        "class": "devicon-c-plain",
+        "level": "65"
+      },
+      {
+        "name": "Spring",
+        "class": "devicon-spring-plain",
+        "level": "65"
+      },
+      {
+        "name": "Laravel",
+        "class": "devicon-laravel-plain",
+        "level": "65"
+      },
+      {
+        "name": "ExpressJS",
+        "class": "devicon-express-original",
+        "level": "65"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain",
+        "level": "65"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "65"
+      },
+      {
+        "name": "MS SQL Server",
+        "class": "devicon-nodejs-plain",
+        "level": "65"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "65"
+      },
+      {
+        "name": "Oracle",
+        "class": "devicon-oracle-original",
+        "level": "65"
+      },
+      {
+        "name": "Gimp",
+        "class": "devicon-gimp-plain",
+        "level": "65"
+      },
+      {
+        "name": "Photoshop",
+        "class": "devicon-photoshop-plain",
+        "level": "65"
+      },
+      {
+        "name": "Gulp",
+        "class": "devicon-gulp-plain",
+        "level": "65"
+      },
+      {
+        "name": "Grunt",
+        "class": "devicon-grunt-plain",
+        "level": "65"
+      },
+      {
+        "name": "Webpack",
+        "class": "devicon-webpack-plain",
+        "level": "65"
+      },
+      {
+        "name": "Ionic",
+        "class": "devicon-ionic-original",
+        "level": "65"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-original",
+        "level": "65"
+      },
+      {
+        "name": "Heroku",
+        "class": "devicon-heroku-plain",
+        "level": "65"
+      },
+      {
+        "name": "Jenkins",
+        "class": "devicon-jenkins-plain",
+        "level": "65"
+      },
+      {
+        "name": "Azure",
+        "class": "devicon-azure-plain",
+        "level": "65"
+      },
+      {
+        "name": "IntelliJ",
+        "class": "devicon-intellij-plain",
+        "level": "65"
+      },
+      {
+        "name": "VSCode",
+        "class": "devicon-vscode-plain",
+        "level": "65"
+      },
+      {
+        "name": "Visual Studio",
+        "class": "devicon-visualstudio-plain",
+        "level": "65"
+      },
+      {
+        "name": "Atom",
+        "class": "devicon-atom-plain",
+        "level": "65"
+      },
+      {
+        "name": "Tomcat",
+        "class": "devicon-tomcat-line",
+        "level": "65"
+      },
+      {
+        "name": "Jest",
+        "class": "devicon-jest-plain",
+        "level": "65"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "65"
+      },
+      {
+        "name": "Firebase",
+        "class": "devicon-firebase-plain",
+        "level": "65"
+      },
+      {
+        "name": "Apache Server",
+        "class": "devicon-apache-plain",
+        "level": "65"
+      },
+      {
+        "name": "Nginx",
+        "class": "devicon-nginx-plain",
+        "level": "65"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-microsoftsqlserver-plain",
+        "level": "60"
+      }
+    ]
+  }
+}
