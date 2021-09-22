@@ -7,6 +7,7 @@
     "npm": "7.21.0"
   },
   "dependencies": {
+    "@iconify/icons-logos": "^1.1.10",
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
@@ -50,7 +51,6 @@
     ]
   },
   "devDependencies": {
-    "@iconify/icons-logos": "^1.1.10",
     "@iconify/react": "^3.0.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
