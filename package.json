@@ -26,7 +26,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true SSL_CRT_FILE=./.cert/pcjoao+2.pem SSL_KEY_FILE=./.cert/pcjoao+2-key.pem react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -58,6 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "node-sass": "^6.0.1"
+    "node-sass": "^6.0.1",
+    "webpack-cli": "^4.8.0"
   }
 }
