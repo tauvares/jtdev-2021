@@ -26,8 +26,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "HTTPS=true SSL_CRT_FILE=./.cert/www.jtdev.com.br.pem SSL_KEY_FILE=./.cert/www.jtdev.com.br-key.pem react-scripts start",
-    "start-dev": "react-scripts start",
+    "start-https": "HTTPS=true SSL_CRT_FILE=./.cert/www.jtdev.com.br.pem SSL_KEY_FILE=./.cert/www.jtdev.com.br-key.pem react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
