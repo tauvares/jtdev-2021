@@ -104,14 +104,15 @@ const App = () => {
 
   useEffect(() => {
     loadAppData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (loading || !componentMounted) {
-    return <CircularProgress size={68} />;
+    return <CircularProgress size={68} sx={{ position: 'absolute', top: '50%', left: '50%' }} />;
   }
   return (
     <>
-      {loading && <CircularProgress size={68} />}
+      {loading && <CircularProgress size={68} sx={{ position: 'absolute', top: '50%', left: '50%' }} />}
       {!loading
         && (
         <ThemeProvider theme={globalTheme}>
