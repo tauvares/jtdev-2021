@@ -93,7 +93,7 @@ const Content = ({ sharedData, resumeData }) => (
       />
       <Education
         id="about"
-        sharedBasicInfo={sharedData.basic_info}
+        resumeEducation={resumeData.education}
         resumeBasicInfo={resumeData.basic_info}
       />
       <About

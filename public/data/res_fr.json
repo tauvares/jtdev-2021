@@ -44,6 +44,7 @@
       "skills": "Skills",
       "experience": "Expérience",
       "education": "Éducation",
+      "language": "Langages",
       "about": "À propos"
     }
   }, 
@@ -444,40 +445,54 @@
       ]
     }
   ],
-  "education": [
-    {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": [
-        "Angular 8/9/10"
-      ],
-      "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
-      ]
-    },
-    {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": [
-        "Angular 7/8"
-      ],
-      "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
-      ]
-    }
-  ]
+  "education": {
+    "courses": [
+      {
+        "institution": "Universidade de Brasília - UnB",
+        "institutionIcon": "unb.svg",
+        "course": "Baccalauréat en Sciences informatiques",      
+        "conclusionDate": "12.2005"
+      },
+      {
+        "institution": "Hong Kong University os Science and Technology - HKUST/Coursera",
+        "institutionIcon": "hkust.png",
+        "course": "Spécialisation en Full Stack Web Development",      
+        "conclusionDate": "01.2017"
+      },
+      {
+        "institution": "CÉGEP de Sainte Foy",
+        "institutionIcon": "cegep.png",
+        "course": "Programmation web avec MVC, C# et ASP.NET",      
+        "conclusionDate": "11.2019"
+      },
+      {
+        "institution": "Unyleya",
+        "institutionIcon": "unyleya.jpg",
+        "course": "Post-Graduation lato sensu en Sciences de Données - Mega Données",      
+        "conclusionDate": "09.2020"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Français",
+        "icon": "france",
+        "level": "TEFAQ Niveau B2 - 07.2019"          
+      },
+      {
+        "language": "Anglais",
+        "icon": "united-kingdom",
+        "level": "IELTS General - Level 7.0 - 10.2016"          
+      },
+      {
+        "language": "Espagnol",
+        "icon": "spain",
+        "level": "Professionnel"          
+      },
+      {
+        "language": "Portugais",
+        "icon": "portugal",
+        "level": "Langue maternelle/Natif"          
+      }
+    ]
+  }
 }

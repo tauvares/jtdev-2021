@@ -1,104 +1,91 @@
 import React from 'react';
-import { shape, string } from 'prop-types';
+import {
+  shape, string,
+} from 'prop-types';
 
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardContent from '@material-ui/core/CardContent';
-import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import { InlineIcon } from '@iconify/react';
 
-import { Icon } from '@iconify/react';
-import angularIcon from '@iconify/icons-logos/angular-icon';
-import reactIcon from '@iconify/icons-logos/react';
-import vueIcon from '@iconify/icons-logos/vue';
+const Education = ({ resumeEducation, resumeBasicInfo }) => {
+  const sectionName = resumeBasicInfo ? resumeBasicInfo.section_name.education : '';
+  const languageSection = resumeBasicInfo ? resumeBasicInfo.section_name.language : '';
 
-const Education = ({
-  sharedBasicInfo, resumeBasicInfo,
-}) => {
-  const profilepic = sharedBasicInfo ? `images/${sharedBasicInfo.image}` : undefined;
+  const getEducationItems = (sectionEducation, resumeBasic) => {
+    let result = '';
+    if (sectionEducation && resumeBasic) {
+      result = sectionEducation.courses.map((education) => (
+        <Grid item xs={12} md={6} lg={3} key={education.institution} style={{ textAlign: 'center' }}>
+          <Card variant="outlined" sx={{ minWidth: 275 }}>
+            <CardContent>
+              <img
+                src={`./images/icons/${education.institutionIcon}`}
+                alt={education.institution}
+                loading="lazy"
+                height="50rem"
+              />
+              <h3>
+                {education.institution}
+              </h3>
+              <h5>{education.course}</h5>
+              <p>{education.conclusionDate}</p>
+            </CardContent>
+          </Card>
+        </Grid>
+      ));
+    }
+    return result;
+  };
 
-  const sectionName = resumeBasicInfo && resumeBasicInfo.section_name ? resumeBasicInfo.section_name.education : '';
-  const hello = resumeBasicInfo ? resumeBasicInfo.description_header : '';
-  const about = resumeBasicInfo ? resumeBasicInfo.description : '';
-  const coloredButtons = () => (
-    <div className="card-header">
-      <Icon icon="twemoji:red-circle" style={{ fontSize: '12px' }} />
-      {' '}
-      {' '}
-      <Icon icon="twemoji:yellow-circle" style={{ fontSize: '12px' }} />
-      {' '}
-      {' '}
-      <Icon icon="twemoji:green-circle" style={{ fontSize: '12px' }} />
-    </div>
-  );
+  const getLanguages = (sectionEducation, resumeBasic) => {
+    let result = '';
+    if (sectionEducation && resumeBasic) {
+      result = sectionEducation.languages.map((language) => (
+        <Grid item xs={12} md={6} lg={3} key={language.language} style={{ textAlign: 'center' }}>
+          <Card variant="outlined" sx={{ minWidth: 275 }}>
+            <CardContent>
+              <InlineIcon
+                icon={`openmoji:flag-${language.icon}`}
+                fontSize="50px"
+              />
+              <h3>
+                {language.language}
+              </h3>
+              <h5>{language.level}</h5>
+            </CardContent>
+          </Card>
+        </Grid>
+      ));
+    }
+    return result;
+  };
+
+  const educationItems = getEducationItems(resumeEducation, resumeBasicInfo);
+  const languages = getLanguages(resumeEducation, resumeBasicInfo);
 
   return (
-    <Grid id="education" container alignItems="center" justifyContent="center" spacing={2}>
-      <Grid item xs={12}>
-        <h1 className="section-title" style={{ color: 'black' }}>
-          <span>{sectionName}</span>
-        </h1>
+    <section id="education">
+      <h1 className="section-title">
+        <span>{sectionName}</span>
+      </h1>
+      <Grid container spacing={2} justifyContent="center" alignItems="center">
+        {educationItems}
       </Grid>
-      <Grid item xs={12} md={6} lg={4}>
-        <div className="project-spacing" style={{ cursor: 'pointer' }}>
-          <span className="portfolio-item">
-            <div
-              className="foto"
-              role="contentinfo"
-            >
-              <div>
-                <img
-                  src={profilepic}
-                  alt="Avatar placeholder"
-                  height="500"
-                  style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
-                />
-                <ul className="list-inline mx-auto skill-icon">
-                  <li className="list-inline-item mx-3">
-                    <Icon icon={angularIcon} style={{ fontSize: '300%', margin: '9% 5%' }} />
-                  </li>
-                  <li className="list-inline-item mx-3">
-                    <Icon icon={reactIcon} style={{ fontSize: '300%', margin: '9% 5%' }} />
-                  </li>
-                  <li className="list-inline-item mx-3">
-                    <Icon icon={vueIcon} style={{ fontSize: '300%', margin: '9% 5%' }} />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </span>
-        </div>
+      <h3 className="section-title">
+        <span>{languageSection}</span>
+      </h3>
+      <Grid container spacing={2} justifyContent="center" alignItems="center">
+        {languages}
       </Grid>
-      <Grid item xs={12} md={6}>
-        <Card>
-          <CardHeader
-            component={coloredButtons}
-          />
-          <Divider />
-          <CardContent>
-            <br />
-            <span className="wave">
-              {hello}
-              {' '}
-              :)
-              {' '}
-            </span>
-            <br />
-            <br />
-            {about}
-          </CardContent>
-        </Card>
-      </Grid>
-    </Grid>
+    </section>
   );
 };
 
 Education.propTypes = {
-  sharedBasicInfo: shape({
-    basic_info: shape({
-      description: string,
-    }),
-  }).isRequired,
+  resumeEducation: shape(
+    shape,
+  ).isRequired,
   resumeBasicInfo: shape({
     basic_info: shape({
       description: string,

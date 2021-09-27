@@ -44,6 +44,7 @@
       "skills": "Skills",
       "experience": "Experiência",      
       "education": "Educação",
+      "language": "Línguas",
       "about": "Sobre"
     }
   },  
@@ -444,40 +445,54 @@
       ]
     }
   ],
-  "education": [
-    {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": [
-        "Angular 8/9/10"
-      ],
-      "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
-      ]
-    },
-    {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
-      "mainTech": [
-        "Angular 7/8"
-      ],
-      "technologies": [
-        "RxJS",
-        "Django",
-        "PHP",
-        "JavaScript",
-        "DHTMLX Gantt"
-      ]
-    }
-  ]
+  "education": {
+    "courses": [
+      {
+        "institution": "Universidade de Brasília - UnB",
+        "institutionIcon": "unb.svg",
+        "course": "Bacharelado em Ciência da Computação",      
+        "conclusionDate": "12.2005"
+      },
+      {
+        "institution": "Hong Kong University os Science and Technology - HKUST",
+        "institutionIcon": "hkust.png",
+        "course": "Especialização em Full Stack Web Development",      
+        "conclusionDate": "01.2017"
+      },
+      {
+        "institution": "CÉGEP de Sainte Foy",
+        "institutionIcon": "cegep.png",
+        "course": "Programação web com MVC, C# e Asp.NET",      
+        "conclusionDate": "11.2019"
+      },
+      {
+        "institution": "Unyleya",
+        "institutionIcon": "unyleya.jpg",
+        "course": "Pós-Graduação lato sensu em Ciência de dados - Big Data",      
+        "conclusionDate": "09.2020"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Francês",
+        "icon": "france",
+        "level": "TEFAQ Niveau B2 - 07.2019"          
+      },
+      {
+        "language": "Inglês",
+        "icon": "united-kingdom",
+        "level": "IELTS General - Level 7.0 - 10.2016"          
+      },
+      {
+        "language": "Espanhol",
+        "icon": "spain",
+        "level": "Profissional"          
+      },
+      {
+        "language": "Português",
+        "icon": "portugal",
+        "level": "Língua materna/Nativo"          
+      }
+    ]
+  }
 }

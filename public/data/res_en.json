@@ -44,6 +44,7 @@
       "skills": "Skills",
       "experience": "Experience",
       "education": "Education",
+      "language": "Languages",
       "about": "About me"
     }
   },  
@@ -443,5 +444,55 @@
         "Windows"
       ]
     }
-  ]
+  ],
+  "education": {
+    "courses": [
+      {
+        "institution": "Universidade de Brasília - UnB",
+        "institutionIcon": "unb.svg",
+        "course": "Computing Science (BSc) - Bachelor degree",      
+        "conclusionDate": "12.2005"
+      },
+      {
+        "institution": "Hong Kong University os Science and Technology - HKUST/Coursera",
+        "institutionIcon": "hkust.png",
+        "course": "Specialisation inFull Stack Web Development",      
+        "conclusionDate": "01.2017"
+      },
+      {
+        "institution": "CÉGEP de Sainte Foy",
+        "institutionIcon": "cegep.png",
+        "course": "Programmation web with MVC, C# and ASP.NET ",      
+        "conclusionDate": "11.2019"
+      },
+      {
+        "institution": "Unyleya",
+        "institutionIcon": "unyleya.jpg",
+        "course": "Lato sensu post-graduation in Data Science - Big Data",      
+        "conclusionDate": "09.2020"
+      }
+    ],
+    "languages": [
+      {
+        "language": "French",
+        "icon": "france",
+        "level": "TEFAQ Niveau B2 - 07.2019"          
+      },
+      {
+        "language": "English",
+        "icon": "united-kingdom",
+        "level": "IELTS General - Level 7.0 - 10.2016"          
+      },
+      {
+        "language": "Spanish",
+        "icon": "spain",
+        "level": "Professional"          
+      },
+      {
+        "language": "Portuguese",
+        "icon": "portugal",
+        "level": "Mother Language/Native"  
+      }
+    ]
+  }
 }

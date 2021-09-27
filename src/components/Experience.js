@@ -48,7 +48,9 @@ const Experience = ({ resumeExperience, resumeBasicInfo }) => {
           <h4 className="vertical-timeline-element-subtitle" style={{ textAlign: 'left', color: 'black' }}>
             {work.title}
           </h4>
-          {work.description}
+          <h5 className="vertical-timeline-element-subtitle" style={{ textAlign: 'left', color: 'black' }}>
+            {work.description}
+          </h5>
           <div style={{ textAlign: 'left', marginTop: '15px' }}>{tech}</div>
         </VerticalTimelineElement>
       );
