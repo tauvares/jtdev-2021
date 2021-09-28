@@ -494,5 +494,22 @@
         "level": "Mother Language/Native"  
       }
     ]
+  },
+  "about": {
+    "whois": "WHO IS JOÃO TAVARES",
+    "motto": "Hard work is only hard work for those who are not pleased by what they do...",
+    "description": "Developer, homemaid, Trying to be Soccer Star and good at Feijoada!",
+    "philosophy": "Our time in this world is very short, so try to invest yours in what/who you love most!",
+    "iLove": "I love:",
+    "passions": [
+      "My wife, Ellen",
+      "My kids, João Guilherme and Camila",
+      "My Parents",
+      "Learning",
+      "Cooking",
+      "Traveling",
+      "Shankball! OOps! Soccer!",
+      "YOU!"
+    ]
   }
 }

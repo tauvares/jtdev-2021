@@ -6,20 +6,19 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
 
 import { Icon } from '@iconify/react';
-import angularIcon from '@iconify/icons-logos/angular-icon';
-import reactIcon from '@iconify/icons-logos/react';
-import vueIcon from '@iconify/icons-logos/vue';
 
 const About = ({
-  sharedBasicInfo, resumeBasicInfo,
+  sharedBasicInfo, resumeBasicInfo, resumeAbout,
 }) => {
   const profilepic = sharedBasicInfo ? `images/${sharedBasicInfo.image}` : undefined;
 
   const sectionName = resumeBasicInfo && resumeBasicInfo.section_name ? resumeBasicInfo.section_name.about : '';
-  const hello = resumeBasicInfo ? resumeBasicInfo.description_header : '';
-  const about = resumeBasicInfo ? resumeBasicInfo.description : '';
+  const {
+    whois, motto, description, philosophy, iLove, passions,
+  } = resumeAbout;
   const coloredButtons = () => (
     <div className="card-header">
       <Icon icon="twemoji:red-circle" style={{ fontSize: '12px' }} />
@@ -53,17 +52,6 @@ const About = ({
                   height="500"
                   style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
                 />
-                <ul className="list-inline mx-auto skill-icon">
-                  <li className="list-inline-item mx-3">
-                    <Icon icon={angularIcon} style={{ fontSize: '300%', margin: '9% 5%' }} />
-                  </li>
-                  <li className="list-inline-item mx-3">
-                    <Icon icon={reactIcon} style={{ fontSize: '300%', margin: '9% 5%' }} />
-                  </li>
-                  <li className="list-inline-item mx-3">
-                    <Icon icon={vueIcon} style={{ fontSize: '300%', margin: '9% 5%' }} />
-                  </li>
-                </ul>
               </div>
             </div>
           </span>
@@ -75,17 +63,32 @@ const About = ({
             component={coloredButtons}
           />
           <Divider />
-          <CardContent>
-            <br />
-            <span className="wave">
-              {hello}
-              {' '}
-              :)
-              {' '}
-            </span>
-            <br />
-            <br />
-            {about}
+          <CardContent style={{ textAlign: 'center' }}>
+            <h2>{whois}</h2>
+            <Grid container>
+              <Grid item xs={6}>
+                <Paper elevation={3}>
+                  <p style={{ textAlign: 'center', padding: '20px' }}>{motto}</p>
+                </Paper>
+              </Grid>
+              <Grid item xs={6}>
+                <Paper elevation={3}>
+                  <p style={{ textAlign: 'center', padding: '20px' }}>{description}</p>
+                </Paper>
+              </Grid>
+              <Grid item xs={12}>
+                <Paper elevation={3}>
+                  <p style={{ textAlign: 'center', padding: '20px' }}>{philosophy}</p>
+                </Paper>
+              </Grid>
+              <Grid item xs={12}>
+                <Paper elevation={3}>
+                  <p style={{ textAlign: 'center', paddingTop: '20px' }}>{iLove}</p>
+                  {passions.map((passion) => (<h4 style={{ textAlign: 'center' }}>{passion}</h4>))}
+                  <br />
+                </Paper>
+              </Grid>
+            </Grid>
           </CardContent>
         </Card>
       </Grid>
@@ -100,6 +103,11 @@ About.propTypes = {
     }),
   }).isRequired,
   resumeBasicInfo: shape({
+    basic_info: shape({
+      description: string,
+    }),
+  }).isRequired,
+  resumeAbout: shape({
     basic_info: shape({
       description: string,
     }),

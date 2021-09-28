@@ -100,6 +100,7 @@ const Content = ({ sharedData, resumeData }) => (
         id="about"
         sharedBasicInfo={sharedData.basic_info}
         resumeBasicInfo={resumeData.basic_info}
+        resumeAbout={resumeData.about}
       />
     </Grid>
     <ScrollTop>

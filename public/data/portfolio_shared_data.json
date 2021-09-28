@@ -8,6 +8,11 @@
         "class": "akar-icons:github-outline-fill"
       },
       {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/joao-tavares-filho-segundo",
+        "class": "et:linkedin"
+      },
+      {
         "name": "gmail",
         "url": "mailto://tauvares@gmail.com",
         "class": "cib:gmail"

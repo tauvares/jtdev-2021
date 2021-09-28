@@ -494,5 +494,22 @@
         "level": "Langue maternelle/Natif"          
       }
     ]
+  },
+  "about": {
+    "whois": "QUI EST JOÃO TAVARES",
+    "motto": "Le travail difficile est difficile seulement pour ceux qui ne le font pas par plaisir...",
+    "description": "Développeur, \"domestique\", \"joueur\" de football et bon avec la Feijoada!",
+    "philosophy": "Notre temps dans ce monde est très court, alors essayez de vous investir dans ce que vous aimez! ",
+    "iLove": "J'aime:",
+    "passions": [
+      "Ma femme, Ellen",
+      "Mes enfants, João Guilherme et Camila",
+      "Mes Parents",
+      "Apprendre",
+      "Cuisiner",
+      "Voyager",
+      "Futsal, Soccer",
+      "VOUS!"
+    ]
   }
 }

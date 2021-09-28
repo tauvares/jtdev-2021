@@ -36,8 +36,6 @@
       "title": "Download CV",
       "cv_file": "Tavares_Joao_CV_br.pdf"
     },  
-    "description_header": "Olá!!",
-    "description": "👋 Eu sou João Tavares. Estou trabalhando com os mais novos frameworks de front-end como Angular, React e Flutter. Este site foi completamente desenvolvido por mim. Se você gostou do visual da página, e necessita de realizar algum projeto com as tecnologias que eu utilizo, por favor, entre em contato! Obrigado 💜",
     "section_name": {
       "services": "Serviços",
       "projects": "Projetos",
@@ -493,6 +491,23 @@
         "icon": "portugal",
         "level": "Língua materna/Nativo"          
       }
+    ]
+  },
+  "about": {
+    "whois": "QUEM É JOÃO TAVARES",
+    "motto": "Trabalho só dá trabalho para quem não tem prazer no que faz...",
+    "description": "Desenvolvedor, \"dona-de-casa\", Caneloboleiro e bom de Feijoada!",
+    "philosophy": "Nosso tempo neste mundo é muito curto, portanto procure investi-lo naquilo que você ama!",
+    "iLove": "Amo",
+    "passions": [
+      "Minha esposa",
+      "Meus Filhos, João Guilherme e Camila",
+      "Meus Pais",
+      "Aprender",
+      "Cozinhar",
+      "Viajar",
+      "Um canelobol! Ops! Futebol Arte ... marcial! ",
+      "VC!"
     ]
   }
 }
