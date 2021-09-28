@@ -47,11 +47,31 @@ const App = () => {
   };
 
   const loadResumeFromPath = async (path) => {
-    await fetch(path)
+    const endpoint = 'https://yhqo2vwdifggdj3bcw2uczbloe.appsync-api.ca-central-1.amazonaws.com/graphql';
+    const apikey = 'da2-3n7nbgypxvcdfndxkvmtnavd2i';
+    const contentInfo = `
+        query MyQuery($id: ID!) {
+          getJtdevInfo(id: $id) {
+            id
+            content
+          }
+        }`;
+    const request = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apikey,
+      },
+      body: JSON.stringify({
+        query: contentInfo,
+        variables: { id: path },
+      }),
+    };
+    await fetch(endpoint, request)
       .then((res) => res.json())
       .then(
         (result) => {
-          setResumeData(result);
+          setResumeData(JSON.parse(result.data.getJtdevInfo.content));
           setLoading(false);
         },
         (error) => {
@@ -67,13 +87,13 @@ const App = () => {
     document.documentElement.lang = pickedLanguage;
     let resumePath = '';
     if (document.documentElement.lang === window.$primaryLanguage) {
-      resumePath = 'data/res_en.json';
+      resumePath = 'res_en';
     }
     if (document.documentElement.lang === window.$secondaryLanguage) {
-      resumePath = 'data/res_br.json';
+      resumePath = 'res_br';
     }
     if (document.documentElement.lang === window.$thirdLanguage) {
-      resumePath = 'data/res_fr.json';
+      resumePath = 'res_fr';
     }
     await loadResumeFromPath(resumePath);
   };
@@ -83,11 +103,31 @@ const App = () => {
   const globalTheme = theme === 'light' ? lightTheme : darkTheme;
 
   const loadSharedData = async () => {
-    await fetch('data/portfolio_shared_data.json')
+    const endpoint = 'https://yhqo2vwdifggdj3bcw2uczbloe.appsync-api.ca-central-1.amazonaws.com/graphql';
+    const apikey = 'da2-3n7nbgypxvcdfndxkvmtnavd2i';
+    const contentInfo = `
+        query MyQuery($id: ID!) {
+          getJtdevInfo(id: $id) {
+            id
+            content
+          }
+        }`;
+    const request = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apikey,
+      },
+      body: JSON.stringify({
+        query: contentInfo,
+        variables: { id: 'portfolio_shared_data' },
+      }),
+    };
+    await fetch(endpoint, request)
       .then((res) => res.json())
       .then(
         (result) => {
-          setSharedData(result);
+          setSharedData(JSON.parse(result.data.getJtdevInfo.content));
         },
         (error) => {
           // eslint-disable-next-line
