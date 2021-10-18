@@ -3,6 +3,7 @@ import { arrayOf, shape, string } from 'prop-types';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Chip from '@material-ui/core/Chip';
+import Grid from '@material-ui/core/Grid';
 
 const Experience = ({ resumeExperience, resumeBasicInfo }) => {
   let sectionName = '';
@@ -42,9 +43,21 @@ const Experience = ({ resumeExperience, resumeBasicInfo }) => {
           key={work.years}
         >
           <div style={{ textAlign: 'left', marginBottom: '4px' }}>{mainTech}</div>
-          <h3 className="vertical-timeline-element-title" style={{ textAlign: 'left', color: 'black' }}>
-            {work.company}
-          </h3>
+          <Grid container spacing={2} alignItems="center">
+            <Grid item xs={3} md={3} lg={3} style={{ textAlign: 'right' }}>
+              <img
+                src={`./images/icons/${work.companyIcon}`}
+                alt="MPDFT"
+                loading="lazy"
+                height="40rem"
+              />
+            </Grid>
+            <Grid item xs={9} md={9} lg={9}>
+              <h3 className="vertical-timeline-element-title" style={{ textAlign: 'left', color: 'black' }}>
+                {work.company}
+              </h3>
+            </Grid>
+          </Grid>
           <h4 className="vertical-timeline-element-subtitle" style={{ textAlign: 'left', color: 'black' }}>
             {work.title}
           </h4>
