@@ -104,7 +104,7 @@ const App = () => {
 
   const loadSharedData = async () => {
     const endpoint = 'https://yhqo2vwdifggdj3bcw2uczbloe.appsync-api.ca-central-1.amazonaws.com/graphql';
-    const apikey = 'da2-3n7nbgypxvcdfndxkvmtnavd2i';
+    const apikey = 'da2-xrpsr6rkczerpldoisi3lv3wou';
     const contentInfo = `
         query MyQuery($id: ID!) {
           getJtdevInfo(id: $id) {
