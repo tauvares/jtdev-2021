@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import CircularProgress from '@material-ui/core/CircularProgress';
+import LinearProgress from '@material-ui/core/LinearProgress';
+import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
 import { useDarkMode } from './useDarkMode';
@@ -11,6 +12,26 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 
 const App = () => {
+  const useStyles = makeStyles({
+    root: {
+      height: '10px',
+      '&.MuiLinearProgress-colorPrimary:not(.MuiLinearProgress-buffer)': {
+        backgroundColor: '#D7CAAA',
+      },
+      '& .MuiLinearProgress-colorPrimary': {
+        backgroundColor: '#D7CAAA',
+      },
+      '& .MuiLinearProgress-barColorPrimary': {
+        backgroundColor: '#363537',
+      },
+      '& .MuiLinearProgress-dashedColorPrimary': {
+        backgroundImage:
+          'radial-gradient(#D7CAAA 0%, #D7CAAA 16%, transparent 42%)',
+      },
+    },
+  });
+
+  const classes = useStyles();
   const [sharedData, setSharedData] = useState();
   const [resumeData, setResumeData] = useState();
   const [loading, setLoading] = React.useState(true);
@@ -148,11 +169,11 @@ const App = () => {
   }, []);
 
   if (loading || !componentMounted) {
-    return <CircularProgress size={68} sx={{ position: 'absolute', top: '50%', left: '50%' }} />;
+    return <LinearProgress className={classes.root} />;
   }
   return (
     <>
-      {loading && <CircularProgress size={68} sx={{ position: 'absolute', top: '50%', left: '50%' }} />}
+      {loading && <LinearProgress className={classes.root} />}
       {!loading
         && (
         <ThemeProvider theme={globalTheme}>

@@ -328,9 +328,45 @@
   ],
   "experience": [
     {
+      "company": "GFT - Canada",
+      "title": "ARCHITECTE-DÉVELOPPEUR DE LOGICIELS",
+      "years": "01.2022 - présent",
+      "mainTech": [
+        "FullStack - Business Analysis - Architecture"
+      ],
+      "description": "Consolider les apprentissages obtenus, en cherchant toujours à évoluer avec les demandes du marché. Concentré sur la fourniture de logiciels de qualité, basés sur les meilleures pratiques du marché. Points forts pour l'obtention de la certification AWS Cloud Practitioner et l'utilisation du standard proposé par TOGAF dans la mise en œuvre de solutions informatiques",
+      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "technologies": [
+        "AWS Certified Cloud Practitioner",
+        "OWASP BEST PRACTICES",
+        "Java",
+        "C#",
+        "AWS",
+        "Azure",
+        "ADFS",
+        "OAuth",
+        "JWT Tokens",
+        "OpenID",
+        "Swagger",
+        "OPEN API",
+        ".NET Core",
+        "SpringBoot",
+        "Struts",
+        "TOGAF",
+        "BizzDesign",
+        "Confluence",
+        "Resharper",
+        "Sonarqube",
+        "Delphi",
+        "SAP Advantage DB",
+        "Kendo",
+        "TFS"
+      ]
+    },
+    {
       "company": "LEVIO - Canada",
       "title": "DÉVELOPPEUR FULLSTACK - ARCHITECTE LOGICIEL",
-      "years": "10.2018 - présent",
+      "years": "10.2018 - 01.2022",
       "mainTech": [
         "FullStack - Agile - Architecture"
       ],

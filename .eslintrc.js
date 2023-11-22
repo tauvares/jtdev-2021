@@ -16,7 +16,7 @@ module.exports = {
     'react-hooks',
   ],
   rules: {
-    'max-len': ['error', 150],
+    'max-len': ['error', 200],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true, optionalDependencies: false, peerDependencies: false }],
     'react-hooks/rules-of-hooks': 'error',
