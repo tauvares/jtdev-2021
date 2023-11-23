@@ -327,13 +327,14 @@
   "experience": [
     {
       "company": "GFT - Canada",
+      "companyIcon": "gft.png",
       "title": "ARQUITETO DE SOFTWARE - DESENVOLVEDOR FULLSTACK",
       "years": "01.2022 - presente",
       "mainTech": [
         "Arquitetura - Análise de Negócios - FullStack"
       ],
       "description": "Consolidar o aprendizado obtido, buscando sempre evoluir de com as exigências do mercado. Foco em entregar software de qualidade, se baseando nas melhores práticas do mercado. Destaque para a obtenção da certificação AWS Cloud Practitioner e pela utilização do padrão sugerido pela TOGAF na implementação de soluções de TI",
-      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "icon": "devicon-amazonwebservices-original",
       "technologies": [
         "AWS Certified Cloud Practitioner",
         "OWASP BEST PRACTICES",
@@ -363,6 +364,7 @@
     },
     {
       "company": "LEVIO - Canadá",
+      "companyIcon": "levio.png",
       "title": "DESENVOLVEDOR FULLSTACK - ARQUITETO DE SOFTWARE",
       "years": "10.2018 - 01.2022",
       "mainTech": [
@@ -399,6 +401,7 @@
     },
     {
       "company": "jtdev.com.br",
+      "companyIcon": "jtdev.png",
       "title": "DESENVOLVIMENTO WEB FREELANCE",
       "years": "07.2016 - 10-2018",
       "mainTech": [
@@ -418,6 +421,7 @@
     },
     {
       "company": "MPDFT - Brasília",
+      "companyIcon": "mpdft.png",
       "title": "CHEFE DO SETOR DE CONSOLIDAÇÃO DE DADOS",
       "years": "01.2009 - 10.2018",
       "mainTech": [
@@ -440,6 +444,7 @@
     },
     {
       "company": "MPDFT - Brasília",
+      "companyIcon": "mpdft.png",
       "title": "DESENVOLVIMENTO DE SOFTWARE",
       "years": "01.2003 - 12.2008",
       "mainTech": [
@@ -460,6 +465,7 @@
     },
     {
       "company": "MPDFT - Brasília",
+      "companyIcon": "mpdft.png",
       "title": "SUPORTE TÉCNICO",
       "years": "10.1999 - 12.2002",
       "mainTech": [

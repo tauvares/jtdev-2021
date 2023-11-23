@@ -57,6 +57,12 @@ a {
 }
 .language-buttons {
   width: 152px;
+  display: flex;
+}
+.language-item {
+  display: grid;
+  font-size: small;
+  margin-left: 8px;
 }
 .PrivateTabIndicator-colorSecondary-3 {
   background-color: ${({ theme }) => theme.text};

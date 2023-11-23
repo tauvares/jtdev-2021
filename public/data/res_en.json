@@ -329,13 +329,14 @@
   "experience": [
     {
       "company": "GFT - Canada",
+      "companyIcon": "gft.png",
       "title": "SOFTWARE ARCHITECT - DEVELOPER",
       "years": "01.2022 - present",
       "mainTech": [
         "FullStack - Business Analysis - Architecture"
       ],
       "description": "Consolidate the learning obtained, always seeking to evolve with market demands. Focused on delivering quality software, based on the best market practices. Highlight for obtaining the AWS Cloud Practitioner certification and using the standard suggested by TOGAF in the implementation of IT solutions",
-      "icon": "devicon-amazonwebservices-plain-wordmark",
+      "icon": "devicon-amazonwebservices-original",
       "technologies": [
         "AWS Certified Cloud Practitioner",
         "OWASP BEST PRACTICES",
@@ -365,6 +366,7 @@
     },
     {
       "company": "LEVIO - Canada",
+      "companyIcon": "levio.png",
       "title": "FULLSTACK DEVELOPER - SOFTWARE ARCHITECT",
       "years": "10.2018 - 01-2022",
       "mainTech": [
@@ -401,6 +403,7 @@
     },
     {
       "company": "jtdev.com.br",
+      "companyIcon": "jtdev.png",
       "title": "FREELANCE WEB DEVELOPMENT",
       "years": "07.2016 - 10-2018",
       "mainTech": [
@@ -420,6 +423,7 @@
     },
     {
       "company": "MPDFT - Brasília",
+      "companyIcon": "mpdft.png",
       "title": "CHIEF OF DATA CONSOLIDATION",
       "years": "01.2009 - 10.2018",
       "mainTech": [
@@ -442,6 +446,7 @@
     },
     {
       "company": "MPDFT - Brasília",
+      "companyIcon": "mpdft.png",
       "title": "SOFTWARE DEVELOPER",
       "years": "01.2003 - 12.2008",
       "mainTech": [
@@ -462,6 +467,7 @@
     },
     {
       "company": "MPDFT - Brasília",
+      "companyIcon": "mpdft.png",
       "title": "IT SUPPORT TECHNICIAN",
       "years": "10.1999 - 12.2002",
       "mainTech": [
